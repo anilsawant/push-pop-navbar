@@ -1,0 +1,11 @@
+body {
+  padding-top: 30px;
+}
+.stack>li> a {
+  background: #ddd;
+  color: #5bc0de !important;
+}
+.stack a:hover {
+  cursor: pointer;
+  background: #ddd;
+}

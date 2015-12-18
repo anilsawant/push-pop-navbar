@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Navbar | Bootstrap</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="includes/css/bootstrap-glyphicons.css">
+    <link rel="stylesheet" href="includes/css/styles.css">
+
+    <!-- About the site -->
+    <meta name="description" content="Push and Pop Navbar items in the new Twitter Bootstrap 3.">
+
+		<!-- Mobile viewport optimized -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+  </head>
+
+  <body>
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header" id="navbarHeader">
+          <div class="navbar-brand">
+            BRAND
+          </div>
+          <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbarCollapse">Menu</button>
+        </div>
+
+        <div class="navbar-collapse collapse" id="navbarCollapse">
+          <ul class="nav navbar-nav" id="dynamicList">
+            <li><a>Item 1</a></li>
+            <li><a>Item 2</a></li>
+            <li><a>Item 3</a></li>
+            <li><a>Item 4</a></li>
+            <li><a>Item 5</a></li>
+            <li><a>Item 6</a></li>
+            <li><a>Item 7</a></li>
+            <li><a>Item 8</a></li>
+            <li><a>Item 9</a></li>
+            <li><a>Item 10</a></li>
+            <li><a>Item 11</a></li>
+            <li><form class="navbar-form navbar-left" role="search">
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Search">
+              </div>
+              <button type="submit" class="btn btn-default">Submit</button>
+            </form></li>
+            <li><a>Item 12</a></li>
+            <li><a>Item 13</a></li>
+          </ul>
+
+          <ul class="nav navbar-nav navbar-right stack" id="stack">
+            <li>
+              <a data-toggle="dropdown">More...</a>
+              <ul class="dropdown-menu" id="stackContent">
+                <li class="divider"></li>
+                <li><a>Initial Stack item 1</a></li>
+                <li><a>Initial Stack item 2</a></li>
+                <li><a>Initial Stack item 3</a></li>
+              </ul>
+            </li>
+          </ul>
+
+        </div><!-- End navbar-collapse -->
+      </div><!-- End container-fluid -->
+    </nav>
+
+    <!-- First try for the online version of jQuery-->
+  <script src="http://code.jquery.com/jquery.js"></script>
+
+  <!-- If no online access, fallback to our hardcoded version of jQuery -->
+  <script>window.jQuery || document.write('<script src="includes/js/jquery-2.1.4.min.js"><\/script>')</script>
+
+    <!-- Bootstrap JS -->
+  <script src="bootstrap/js/bootstrap.min.js"></script>
+
+  <!-- Custom JS -->
+  <script src="includes/js/script.js"></script>
+
+  </body>
+</html>
